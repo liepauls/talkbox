@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get '/' => 'users#new'
   get '/chatrooms' => 'chatrooms#new'
-  get '/chatroom/:room' => 'chatrooms#room'
+  get '/chatroom/:room' => 'chatrooms#show'
   # get '/', :to => 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

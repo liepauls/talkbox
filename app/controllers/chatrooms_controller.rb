@@ -11,11 +11,15 @@ class ChatroomsController < ApplicationController
 	end
 
 	# TODO Rename to show
-  def room
+  def show
   	@room = Room.find_by!(name: params[:room])
   	@messages = @room.messages
   	session[:room] = params[:room]
   end
 end
+
+
+
+
 
 
