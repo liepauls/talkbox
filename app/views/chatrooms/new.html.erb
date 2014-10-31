@@ -1,0 +1,15 @@
+<p>hey, <%= session[:user] %>!</p>
+
+<form>
+New Chatroom:
+<input type="text" name="id">
+<input type="text" name="pass">
+<input type="submit" value="continue">
+</form>
+
+<p>
+<% Room.all.as_json.each_index do |index| %>
+	<a href="/chatroom/<%= Room.all.as_json[index]["name"] %>"><%= Room.all.as_json[index]["name"] %></a>
+	<br>
+<% end %>
+</p>

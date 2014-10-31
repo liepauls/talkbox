@@ -1,0 +1,17 @@
+<div style="height: 300px">
+	<p>
+		<% @messages.each do |message| %>
+
+			<%= "[#{message.created_at.strftime("%H:%M")}]
+			#{message.user.username}: #{message.text}" %>
+
+			<br>
+		<% end %>
+
+	</p>
+</div>
+
+<form action="/messages/new">
+<input type="text" name="message">
+<input type="submit" value="send">
+</form>
