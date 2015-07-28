@@ -10,7 +10,6 @@ class ChatroomsController < ApplicationController
 		end
 	end
 
-	# TODO Rename to show
   def show
   	@room = Room.find_by!(name: params[:room])
   	@messages = @room.messages

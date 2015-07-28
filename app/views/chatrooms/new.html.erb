@@ -9,7 +9,7 @@ New Chatroom:
 
 <p>
 <% Room.all.as_json.each_index do |index| %>
-	<a href="/chatroom/<%= Room.all.as_json[index]["name"] %>"><%= Room.all.as_json[index]["name"] %></a>
+	<a href="/chatroom/<%= access_room(index) %>"><%= access_room(index) %></a>
 	<br>
 <% end %>
 </p>

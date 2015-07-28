@@ -15304,3 +15304,1394 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-10-31 14:56:03 +0200
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 14:56:03 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-01 16:28:56 +0200
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 812ms (Views: 811.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:28:58 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-01 16:29:14 +0200
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 208ms (Views: 206.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:15 +0200
+
+
+Started GET "/?username=kate" for 127.0.0.1 at 2014-11-01 16:29:19 +0200
+Processing by UsersController#new as HTML
+  Parameters: {"username"=>"kate"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (137.9ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES (?, ?, ?)[0m  [["created_at", "2014-11-01 14:29:19.994947"], ["updated_at", "2014-11-01 14:29:19.994947"], ["username", "kate"]]
+  [1m[35m (210.2ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/chatrooms
+Completed 302 Found in 353ms (ActiveRecord: 348.2ms)
+
+
+Started GET "/chatrooms" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+Processing by ChatroomsController#new as HTML
+  [1m[36mRoom Load (11.5ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "rooms".* FROM "rooms"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "rooms".* FROM "rooms"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  Rendered chatrooms/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 291ms (Views: 252.9ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:20 +0200
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:29:24 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[35mRoom Load (0.3ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?[0m  [["room_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 154ms (Views: 150.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/messages/new?message=heyo" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+Processing by MessagesController#new as HTML
+  Parameters: {"message"=>"heyo"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'kate' LIMIT 1
+  [1m[36mRoom Load (0.9ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "messages" ("created_at", "room_id", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-01 14:29:28.196935"], ["room_id", 1], ["text", "heyo"], ["updated_at", "2014-11-01 14:29:28.196935"], ["user_id", 10]]
+  [1m[35m (257.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/chatroom/room
+Completed 302 Found in 266ms (ActiveRecord: 259.3ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered chatrooms/show.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 113ms (Views: 109.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:28 +0200
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:29:51 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[35mRoom Load (0.3ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?[0m  [["room_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered chatrooms/show.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 549ms (Views: 546.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:51 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:29:52 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-01 16:29:58 +0200
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?username=pauls" for 127.0.0.1 at 2014-11-01 16:30:03 +0200
+Processing by UsersController#new as HTML
+  Parameters: {"username"=>"pauls"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "username") VALUES (?, ?, ?)  [["created_at", "2014-11-01 14:30:03.259796"], ["updated_at", "2014-11-01 14:30:03.259796"], ["username", "pauls"]]
+  [1m[36m (135.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/chatrooms
+Completed 302 Found in 140ms (ActiveRecord: 136.1ms)
+
+
+Started GET "/chatrooms" for 127.0.0.1 at 2014-11-01 16:30:03 +0200
+Processing by ChatroomsController#new as HTML
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "rooms".* FROM "rooms"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "rooms".* FROM "rooms"
+  Rendered chatrooms/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 107ms (Views: 105.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:05 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.4ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered chatrooms/show.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 93ms (Views: 88.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/messages/new?message=ko+dari%3F" for 127.0.0.1 at 2014-11-01 16:30:22 +0200
+Processing by MessagesController#new as HTML
+  Parameters: {"message"=>"ko dari?"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'pauls' LIMIT 1
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "messages" ("created_at", "room_id", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-01 14:30:22.151356"], ["room_id", 1], ["text", "ko dari?"], ["updated_at", "2014-11-01 14:30:22.151356"], ["user_id", 1]]
+  [1m[35m (135.1ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/chatroom/room
+Completed 302 Found in 141ms (ActiveRecord: 136.3ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:22 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.1ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 155ms (Views: 151.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:22 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 86ms (Views: 83.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/messages/new?message=ai+neko" for 127.0.0.1 at 2014-11-01 16:30:26 +0200
+Processing by MessagesController#new as HTML
+  Parameters: {"message"=>"ai neko"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'kate' LIMIT 1[0m
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "messages" ("created_at", "room_id", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-01 14:30:26.552043"], ["room_id", 1], ["text", "ai neko"], ["updated_at", "2014-11-01 14:30:26.552043"], ["user_id", 10]]
+  [1m[36m (269.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/chatroom/room
+Completed 302 Found in 275ms (ActiveRecord: 270.3ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:26 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?[0m  [["room_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered chatrooms/show.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 117ms (Views: 113.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:27 +0200
+
+
+Started GET "/messages/new?message=dom%C4%81ju+ko+vakar%C4%81" for 127.0.0.1 at 2014-11-01 16:30:31 +0200
+Processing by MessagesController#new as HTML
+  Parameters: {"message"=>"domāju ko vakarā"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."username" = 'kate' LIMIT 1[0m
+  [1m[35mRoom Load (0.3ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "messages" ("created_at", "room_id", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-01 14:30:31.436928"], ["room_id", 1], ["text", "domāju ko vakarā"], ["updated_at", "2014-11-01 14:30:31.436928"], ["user_id", 10]]
+  [1m[36m (273.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/chatroom/room
+Completed 302 Found in 281ms (ActiveRecord: 274.8ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:31 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?[0m  [["room_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered chatrooms/show.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 118ms (Views: 115.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:31 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:31 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:31 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:32 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:32 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:32 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:32 +0200
+
+
+Started GET "/messages/new?message=ko+tu%3F" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+Processing by MessagesController#new as HTML
+  Parameters: {"message"=>"ko tu?"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'kate' LIMIT 1
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "messages" ("created_at", "room_id", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-01 14:30:36.089294"], ["room_id", 1], ["text", "ko tu?"], ["updated_at", "2014-11-01 14:30:36.089294"], ["user_id", 10]]
+  [1m[35m (230.6ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/chatroom/room
+Completed 302 Found in 237ms (ActiveRecord: 231.5ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered chatrooms/show.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 85ms (Views: 81.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:36 +0200
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:38 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[35mRoom Load (0.3ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?[0m  [["room_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered chatrooms/show.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 97ms (Views: 93.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered chatrooms/show.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 87ms (Views: 83.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:39 +0200
+
+
+Started GET "/messages/new?message=kko+l%C4%ABdz%C4%ABgu" for 127.0.0.1 at 2014-11-01 16:30:44 +0200
+Processing by MessagesController#new as HTML
+  Parameters: {"message"=>"kko līdzīgu"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'pauls' LIMIT 1
+  [1m[36mRoom Load (0.5ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "messages" ("created_at", "room_id", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-01 14:30:44.206724"], ["room_id", 1], ["text", "kko līdzīgu"], ["updated_at", "2014-11-01 14:30:44.206724"], ["user_id", 1]]
+  [1m[35m (127.8ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/chatroom/room
+Completed 302 Found in 135ms (ActiveRecord: 128.9ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:44 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.4ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 91ms (Views: 87.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:30:44 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 98ms (Views: 95.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:30:45 +0200
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.4ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 106ms (Views: 101.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:23 +0200
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:31:24 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 119ms (Views: 116.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2014-11-01 16:31:25 +0200
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 98ms (Views: 94.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:31:26 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-28 08:10:06 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 199ms (Views: 188.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:06 +0300
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:06 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:06 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:07 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:07 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:07 +0300
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:07 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:07 +0300
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:07 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:07 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:07 +0300
+
+
+Started GET "/?username=test" for 127.0.0.1 at 2015-07-28 08:10:10 +0300
+Processing by UsersController#new as HTML
+  Parameters: {"username"=>"test"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (11.4ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES (?, ?, ?)[0m  [["created_at", "2015-07-28 05:10:10.645771"], ["updated_at", "2015-07-28 05:10:10.645771"], ["username", "test"]]
+  [1m[35m (125.3ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/chatrooms
+Completed 302 Found in 337ms (ActiveRecord: 137.3ms)
+
+
+Started GET "/chatrooms" for 127.0.0.1 at 2015-07-28 08:10:10 +0300
+Processing by ChatroomsController#new as HTML
+  [1m[36mRoom Load (0.4ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "rooms".* FROM "rooms"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "rooms".* FROM "rooms"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  Rendered chatrooms/new.html.erb within layouts/application (59.9ms)
+Completed 200 OK in 161ms (Views: 158.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:11 +0300
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2015-07-28 08:10:15 +0300
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?[0m  [["room_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered chatrooms/show.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 195ms (Views: 74.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/messages/new?message=13" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+Processing by MessagesController#new as HTML
+  Parameters: {"message"=>"13"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'test' LIMIT 1
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "messages" ("created_at", "room_id", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-07-28 05:10:21.068524"], ["room_id", 1], ["text", "13"], ["updated_at", "2015-07-28 05:10:21.068524"], ["user_id", 7]]
+  [1m[35m (393.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/chatroom/room
+Completed 302 Found in 399ms (ActiveRecord: 394.4ms)
+
+
+Started GET "/chatroom/room" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room"}
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room' LIMIT 1[0m
+  [1m[35mMessage Load (0.5ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered chatrooms/show.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 77ms (Views: 73.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:21 +0300
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2015-07-28 08:10:29 +0300
+
+ActionController::RoutingError (No route matches [GET] "/chatroom"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (52.4ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.8ms)
+
+
+Started GET "/chatrooms" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+Processing by ChatroomsController#new as HTML
+  [1m[35mRoom Load (0.3ms)[0m  SELECT "rooms".* FROM "rooms"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "rooms".* FROM "rooms"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "rooms".* FROM "rooms"
+  Rendered chatrooms/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 76ms (Views: 74.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:32 +0300
+
+
+Started GET "/chatrooms?id=room3&pass=" for 127.0.0.1 at 2015-07-28 08:10:37 +0300
+Processing by ChatroomsController#new as HTML
+  Parameters: {"id"=>"room3", "pass"=>""}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "rooms" ("created_at", "name", "password", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-07-28 05:10:37.795606"], ["name", "room3"], ["password", ""], ["updated_at", "2015-07-28 05:10:37.795606"]]
+  [1m[36m (455.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/chatroom/room3
+Completed 302 Found in 461ms (ActiveRecord: 456.2ms)
+
+
+Started GET "/chatroom/room3" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room3"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room3' LIMIT 1
+  [1m[36mMessage Load (0.1ms)[0m  [1mSELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?[0m  [["room_id", 3]]
+  Rendered chatrooms/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 131ms (Views: 129.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:38 +0300
+
+
+Started GET "/messages/new?message=hola" for 127.0.0.1 at 2015-07-28 08:10:44 +0300
+Processing by MessagesController#new as HTML
+  Parameters: {"message"=>"hola"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'test' LIMIT 1
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room3' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "messages" ("created_at", "room_id", "text", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-07-28 05:10:44.955680"], ["room_id", 3], ["text", "hola"], ["updated_at", "2015-07-28 05:10:44.955680"], ["user_id", 7]]
+  [1m[35m (445.0ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/chatroom/room3
+Completed 302 Found in 455ms (ActiveRecord: 446.0ms)
+
+
+Started GET "/chatroom/room3" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+Processing by ChatroomsController#show as HTML
+  Parameters: {"room"=>"room3"}
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT  "rooms".* FROM "rooms"  WHERE "rooms"."name" = 'room3' LIMIT 1[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages"  WHERE "messages"."room_id" = ?  [["room_id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered chatrooms/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 65ms (Views: 60.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:45 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 08:10:54 +0300
+  [1m[36m (214.9ms)[0m  [1mCREATE TABLE "messages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "room_id" integer, "text" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (250.3ms)[0m  CREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (241.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (260.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (234.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (308.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141030103510')
+  [1m[36m (259.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141030095034')[0m
+  [1m[35m (250.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141030102106')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 114ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chatrooms.css?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/chatrooms.js?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 08:12:29 +0300
