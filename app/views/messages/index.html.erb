@@ -1,0 +1,10 @@
+<% Room.find(params[:chatroom_id]).messages.as_json.each do |msg| %>
+	<%= msg['text'] %>
+	<% if User.find_by(username: session[:user])['id'] == msg['user_id'] %>
+		<%= link_to 'Edit', "/chatrooms/#{session[:id]}/messages/#{msg['id']}/edit" %>
+		<%= link_to 'Destroy', "/chatrooms/#{session[:id]}/messages/#{msg['id']}", method: 'delete' %>
+	<% end %>
+	<br>
+<% end %>
+
+

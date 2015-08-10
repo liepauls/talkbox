@@ -1,0 +1,24 @@
+hey, <%= session[:user] %>!
+<%= link_to 'Log out', logout_path %>
+
+<br>
+
+<a href="/chatrooms/new">New room</a>
+<br>
+<% Room.all.as_json.each do |x| %>
+	<% if x['password'] != '' %>
+		<%= link_to "#{x['name']}", "/chatrooms/#{x['id']}/authenticate" %>
+	<% else %>
+		<%= link_to "#{x['name']}", "/chatrooms/#{x['id']}" %>
+	<% end %>
+	<%= link_to 'Edit', "/chatrooms/#{x['id']}/edit" %>
+	<%= link_to 'Destroy', "/chatrooms/#{x['id']}", method: 'delete' %>
+	<br>
+<% end %>
+
+<script>
+// function passwordPrompt	(el) {
+// 	var pwd = prompt("Enter password to access this room.");
+// 	window.location = el.href + '?room_pwd=' + pwd;
+// }
+</script>
