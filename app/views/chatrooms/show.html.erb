@@ -1,4 +1,5 @@
-<div style="height: 300px">
+<%= link_to 'Edit', "/chatrooms/#{session[:id]}/messages" %>
+<div style="height: 300px" class="chat-log">
 	<p>
 		<% @messages.each do |message| %>
 
@@ -11,7 +12,7 @@
 	</p>
 </div>
 
-<form action="/messages/new">
+<form action="/chatrooms/:id/messages/new" id="form">
 <input type="text" name="message">
 <input type="submit" value="send">
 </form>

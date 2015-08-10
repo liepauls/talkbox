@@ -2,14 +2,8 @@
 
 <form>
 New Chatroom:
-<input type="text" name="id">
-<input type="text" name="pass">
-<input type="submit" value="continue">
+<input type="text" name="name">
+<input type="password" name="pass">
+<input type="submit" name="submit" value="continue">
 </form>
 
-<p>
-<% Room.all.as_json.each_index do |index| %>
-	<a href="/chatroom/<%= access_room(index) %>"><%= access_room(index) %></a>
-	<br>
-<% end %>
-</p>
