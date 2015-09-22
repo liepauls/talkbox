@@ -5,16 +5,16 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
   encoding: utf8
+  username: talkbox_test
+  password: talkbox
   host: localhost
   port: 5432
 
 development:
   <<: *default
-  database: project_development
-
-
+  database: talkbox_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
