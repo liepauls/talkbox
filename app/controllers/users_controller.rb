@@ -1,31 +1,43 @@
 class UsersController < ApplicationController
+  layout 'default'
+  skip_before_action :authorize, :clear_errors, :verify_authenticity_token
+  before_action      :signed_in, only: [:index, :new, :create]
 
-	skip_before_action :authorize
+  def index
+    if params[:password]
+      user = User.find_by(username: params[:username])
 
-	def index
-		redirect_to '/chatrooms' if session[:user]
+      if BCrypt::Password.new(user.password) == params[:password]
+        session[:user] = user.id
+        session[:notification] = 'You have successfully logged in!'
+        redirect_to '/rooms'
+      end
+    end
+  rescue NoMethodError
+    session[:err] = 'Incorrect username or password!'
+    redirect_to '/'
+  end
 
-		if params[:password] && params[:password] == User.find_by(username: params[:username])[:password]
-			session[:user] = params[:username]
-			redirect_to '/chatrooms'
-		end
-	end
+  def create
+    user = User.new(username: params[:username], password: params[:password])
 
-  def new
-  	if params[:username]
-	  	user = User.create(username: params[:username], password: params[:password])
-	   	session[:user] = params[:username]
-	   	if user.errors.empty?
-	   		redirect_to '/chatrooms'
-	   	else
-	   		flash[:error] = user.errors.full_messages.join(' and ')
-	   	end
-	  end
+    if user.save
+      user.update(password: BCrypt::Password.create(params[:password]))
+      session[:user] = user.id
+      session[:notification] = 'You have successfully created a new account!'
+      redirect_to rooms_path
+    else
+      session[:err] = user.errors.full_messages.first
+      redirect_to new_path
+    end
   end
 
   def logout
-  	session[:user] = nil
-  	redirect_to '/users'
+    session.delete(:user)
+    redirect_to '/'
   end
 
+  def signed_in
+    redirect_to rooms_path unless session[:user].nil?
+  end
 end

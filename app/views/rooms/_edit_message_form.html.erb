@@ -1,0 +1,6 @@
+<%= form_for message, url: "/rooms/#{current_room.id}/messages/#{message.id}",
+		remote: true do |f| %>
+	<%= f.text_field :text, value: '', placeholder: "Edit  `#{message.text}`" %>
+	<%= f.submit %>
+	<button type="button" id="close_edit_message_<%= index %>">Cancel</button></p>
+<% end %>

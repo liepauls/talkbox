@@ -1,0 +1,37 @@
+<div class="content">
+<div class="room_buttons">
+	<% if current_user.id == current_room.user_id %>
+		<%= link_to 'Edit room', edit_room_path(current_room), class: 'button' %>
+	<% end %>
+</div>
+
+	<div class="chat_log">
+
+		<%= render 'messages/index' %>
+
+		<div class="emojis">
+			<button type="button" class="close">Close</button>
+			<br><br>
+
+			<% top_emojis.each do |emoji| %>
+				<button type="button" id="add_<%= emoji %>"><%= emojify(emoji) %></button>
+			<% end %>
+		</div>
+	</div>
+
+
+	<div class="input">
+		<form action="/rooms/<%= params[:id] %>/messages/" data-remote="true" method="post" class="input" >
+			<div class="message_input">
+				<input type="text" name="message" id="message_input">
+				<button type="button" class="show_emojis">
+					<%= image_tag('smiley.png', size: '22x22')%></button>
+			</div>
+
+			<div class="send">
+				<input type="submit" value="Send" class="button">
+			</div>
+		</form>
+	</div>
+</div>
+

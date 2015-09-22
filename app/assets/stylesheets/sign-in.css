@@ -1,0 +1,35 @@
+.sign-in {
+	font-family: verdana;
+	text-align:	 center;
+}
+
+.title {
+	font-size: 3em;
+}
+
+.semi-title {
+	font-size: 2em;
+}
+
+.errors {
+	color: red;
+}
+
+input[type="submit"].login {
+	padding-right: 20px;
+	padding-left:	 20px;
+	margin-top: 	 10px;
+	font-size: 		 1.2em;
+}
+
+input[type="text"].login {
+	font-size: 1.1em;
+	height: 	 25px;
+	width: 		 250px;
+}
+
+input[type="password"].login {
+	font-size: 1.1em;
+	height:		 25px;
+	width: 		 250px;
+}

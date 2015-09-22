@@ -1,0 +1,16 @@
+	<div class="delete"><%= link_to 'Delete room', "/rooms/#{@room.id}", method: 'delete',
+								data: { confirm: 'Are you sure?'}, class: 'button' %></div>
+
+<div class="centered">
+	</p> Change the name or password for "<%= current_room.name %>" </p>
+	<br>
+	<p class="errors"><%= session[:err] %></p>
+	<br>
+	<%= form_for @room do |f| %>
+		<%= f.text_field :name, value: '', placeholder: 'Name' %>
+		<br>
+		<%= f.password_field :password, placeholder: 'Password' %>
+		<br>
+		<%= f.submit %>
+	<% end %>
+</div>

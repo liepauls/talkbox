@@ -1,19 +1,16 @@
 Rails.application.routes.draw do
 
-  # get 'messages/new'
+  resources :users, only: [:index, :new, :create]
 
-  # get '/' => 'users#new'
-  # get '/chatrooms' => 'chatrooms#new'
-  # get '/chatroom/:room' => 'chatrooms#show'
-
-  resources :users
-
-  resources :chatrooms do
-    resources :messages
+  resources :rooms do
+    resources :messages, only: [:index, :create, :update, :destroy]
   end
-  post '/chatrooms/:room' => 'messages#new'
-  get '/chatrooms/:room/authenticate' => 'chatrooms#authenticate'
-  get '/logout' => 'users#logout'
+
+  get '/'                       => 'users#index'
+  get '/new'                    => 'users#new'
+  get '/logout'                 => 'users#logout'
+  get '/rooms/:id/authenticate' => 'rooms#authenticate'
+
 
   # get '/', :to => 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.

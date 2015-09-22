@@ -1,0 +1,25 @@
+<div class="messages">
+
+<% @messages.sort.each.with_index(1) do |message, index| %>
+	<p class="message">
+		<b>
+			<%= "[#{message.created_at.strftime("%H:%M")}]" %>
+			<%= "#{message.user.username}:" %>
+		</b>
+		<%= edited_message?(message.id) %>
+		<span id="<%= index %>">
+			<%= emojify(message.text) %>
+		</span>
+		<button id="show_edit_message_<%= index %>">
+			<%= image_tag('gear.png') %>
+		</button>
+
+		<div class="edit_message_<%= index %>">
+			<%= render partial: 'edit_message_form', locals: { message: message,
+																												 index:   index } %>
+		</div>
+
+  </p>
+<% end %>
+</div>
+

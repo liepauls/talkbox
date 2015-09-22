@@ -1,0 +1,15 @@
+<div class="centered">
+	Create a new Chatroom:
+	<br>
+	<br>
+	<p class="errors"><%= session[:err] %></p>
+
+	<%= form_for @room do |f| %>
+		<%= f.text_field :name, value: '', placeholder: 'Name' %>
+		<br>
+		<%= f.password_field :password, placeholder: 'Password (optional)' %>
+		<br>
+		<%= f.submit %>
+	<% end %>
+</div>
+<% session.delete(:err) %>

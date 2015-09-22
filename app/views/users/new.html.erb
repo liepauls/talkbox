@@ -1,13 +1,14 @@
-<form>
-<input type="text" name="username">
-<br>
-<input type="password" name="password">
-<br>
-<input type="submit" value="continue" onclick="myFunction()">
-</form>
-<!-- <button onclick="myFunction()">Try it</button> -->
-<script>
-function myFunction() {
-    alert("test");
-}
-</script>
+<div class="sign-in">
+	<p class="title">Sign up to Talkbox</p>
+	<p class="errors"><%= session[:err] %></p>
+
+	<form action="/users" method="post">
+		<input type="text" name="username" placeholder="username" class="login">
+		<br>
+		<input type="password" name="password" placeholder="password" class="login">
+		<br>
+		<input type="submit" name="submit" value="continue" class="login">
+	</form>
+
+	<% clear_errors %>
+</div>

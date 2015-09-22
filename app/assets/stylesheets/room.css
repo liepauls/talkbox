@@ -1,0 +1,144 @@
+.content {
+	padding-left: 280px;
+	font-family: 	ubuntu;
+	text-align: 	center;
+	font-size: 		1em;
+	color: 				#3A3A3A
+}
+
+.centered {
+	padding-left: 280px;
+	font-family:	verdana;
+	text-align: 	center;
+	margin-top: 	150px;
+	font-size: 		1.2em;
+}
+
+.chat_log {
+	background-color: #E4E4E4;
+	padding-top: 			10px;
+	overflow-x:				hidden;
+	text-align: 			left;
+	overflow-y: 			auto;
+	position: 				relative;
+	margin: 					0 auto;
+	border: 					#BBBBBB solid 3px;
+	height: 					520px;
+	width: 						900px;
+}
+
+.input {
+	margin: 0 auto;
+	width: 	900px;
+}
+
+.message_input {
+	border-radius: 5px;
+	margin-left:	 45px;
+	margin-top:		 10px;
+	border:				 solid #BBBBBB 2px;
+	height: 			 30px;
+	width:				 700px;
+	float: 				 left;
+}
+	.message_input input[type="text"] {
+		padding-top: 	6px;
+		border: 			none;
+		width: 				600px;
+}
+
+	.message_input button {
+		background-color: white;
+		padding-right:		8px;
+		margin-top: 			1px;
+		border: 					none;
+		float: 						right;
+}
+
+.send {
+	margin-right: 45px;
+	margin-top: 	9px;
+	float: 				right;
+}
+
+.message {
+	margin-bottom: 0;
+	padding-left:	 10px;
+	line-height:   1;
+	margin-top:    0;
+
+}
+	.message button {
+		display: none;
+	}
+
+	.message:hover button {
+		background-color: inherit;
+		text-decoration: 	none;
+		margin-right: 		15px;
+		display: 					block;
+		border: 					none;
+		float: 						right;
+	}
+
+.room_buttons {
+	padding-top: 30px;
+	text-align:	 right;
+	display: 		 inline-block;
+	width:			 900px;
+}
+
+.emojis {
+	background-color: white;
+	border-radius: 		5px;
+	margin-left: 			630px;
+	max-width: 				180px;
+	position: 				fixed;
+	display:					none;
+	padding: 					12px;
+	border: 					gray solid 2px;
+	top: 							390px;
+}
+
+	.emojis button {
+		background-color: white;
+		text-decoration:  none;
+		border:						none;
+		color: 						none;
+		background: 			none;
+	}
+
+.close {
+	margin-right: 15px;
+	color: 				gray;
+	float:				right;
+	background:   none;
+	border:				none;
+	background-color: none;
+	text-decoration: none;
+}
+
+.delete {
+	text-align: right;
+	position: 	absolute;
+  right: 			200px;
+	width: 			100%;
+  top:	 			60px;
+}
+
+div[class*='edit_message_'] {
+	background-color: white;
+	border-radius: 		8px;
+	margin-left: 			65px;
+	padding-top: 			20px;
+	text-align: 			center;
+	margin-top: 			15px;
+	display: 					none;
+	border: 					solid gray 2px;
+	width: 						770px;
+}
+
+
+	div[class*='edit_message_'] input[type="text"] {
+		width: 500px;
+	}

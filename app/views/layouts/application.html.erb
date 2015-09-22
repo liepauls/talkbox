@@ -5,12 +5,55 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <script type="text/javascript">
+    window.username = "<%= current_user.username %>";
+  </script>
 </head>
 <body>
+	<% if session[:notification] != '' %>
+		<div id="notify"><%= session[:notification] %></div>
+	<% end %>
 
-	<p>SWAAAAG</p>
+	<div class="menu">
 
-<%= yield %>
+		<p class="logo">Talkbox</p>
+		<p align="center">Welcome, <%= current_user.username %>!</p>
+
+		<br>
+
+		<p class="available_rooms">Available rooms:</p>
+		<div class="rooms">
+			<% Room.all.each do |room| %>
+				<ul>
+					<% if room.password != '' %>
+						<li><%= link_to room.name, "/rooms/#{room.id}/authenticate" %></li>
+					<% else %>
+						<li><%= link_to room.name, room_path(room) %>
+					<% end %></li>
+					<div class="line"></div>
+				</ul>
+			<% end %>
+			<br>
+		</div>
+
+		<br>
+		<br>
+
+		<p class="logout_new_buttons">
+			<%= link_to 'New room', new_room_path, class: 'button' %>
+			<%= link_to 'Log out', logout_path, class: 'button' %>
+		</p>
+
+		<%= javascript_include_tag 'notify' %>
+
+		<% session.delete(:notification) %>
+	</div>
+	<%= yield %>
 
 </body>
 </html>
+
+

@@ -1,11 +1,22 @@
-<a href="/users/new">New user</a>
-<br>
-Sign in
+<div class="sign-in">
+	<p class="title">Welcome to Talkbox!</p>
 
-<form>
-<input type="text" name="username">
-<br>
-<input type="password" name="password">
-<br>
-<input type="submit" value="continue">
-</form>
+	<p class="semi-title">Free, online web chat application for everyone</p>
+
+	<br>
+
+	<p class="errors"><%= session[:err] %></p>
+
+	<form>
+		<input type="text" name="username" placeholder="username" class="login">
+		<br>
+		<input type="password" name="password" placeholder="password" class="login">
+		<br>
+		<input type="submit" value="Sign in" class="login">
+	</form>
+
+
+	<p>Don't have an account? <a href="/new">Sign up</a></p>
+</div>
+
+<% session.delete(:err) %>
