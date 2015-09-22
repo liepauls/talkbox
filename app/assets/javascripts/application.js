@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
-//= require_tree ../templates
 //= require channels
 //= require_tree .
 //= require turbolinks
