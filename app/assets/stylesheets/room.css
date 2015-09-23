@@ -1,5 +1,5 @@
 .content {
-	padding-left: 280px;
+	padding-left: 250px;
 	font-family: 	ubuntu;
 	text-align: 	center;
 	font-size: 		1em;
@@ -7,7 +7,7 @@
 }
 
 .centered {
-	padding-left: 280px;
+	padding-left: 250px;
 	font-family:	verdana;
 	text-align: 	center;
 	margin-top: 	150px;
@@ -22,29 +22,29 @@
 	overflow-y: 			auto;
 	position: 				relative;
 	margin: 					0 auto;
-	border: 					#BBBBBB solid 3px;
-	height: 					520px;
-	width: 						900px;
+	border: 					#BBBBBB solid 2px;
+	height: 					480px;
+	width: 						800px;
 }
 
 .input {
 	margin: 0 auto;
-	width: 	900px;
+	width: 	800px;
 }
 
 .message_input {
 	border-radius: 5px;
-	margin-left:	 45px;
+	margin-left:	 30px;
 	margin-top:		 10px;
 	border:				 solid #BBBBBB 2px;
-	height: 			 30px;
-	width:				 700px;
+	height: 			 28px;
+	width:				 630px;
 	float: 				 left;
 }
 	.message_input input[type="text"] {
 		padding-top: 	6px;
 		border: 			none;
-		width: 				600px;
+		width: 				570px;
 }
 
 	.message_input button {
@@ -56,7 +56,7 @@
 }
 
 .send {
-	margin-right: 45px;
+	margin-right: 25px;
 	margin-top: 	9px;
 	float: 				right;
 }
@@ -66,6 +66,8 @@
 	padding-left:	 10px;
 	line-height:   1;
 	margin-top:    0;
+	font-size:     0.9em;
+
 
 }
 	.message button {
@@ -85,19 +87,20 @@
 	padding-top: 30px;
 	text-align:	 right;
 	display: 		 inline-block;
-	width:			 900px;
+	width:			 800px;
 }
 
 .emojis {
 	background-color: white;
 	border-radius: 		5px;
-	margin-left: 			630px;
-	max-width: 				180px;
+	margin-left: 			545px;
+	max-width: 				165px;
+	font-size:        0.9em;
 	position: 				fixed;
 	display:					none;
-	padding: 					12px;
-	border: 					gray solid 2px;
-	top: 							390px;
+	padding: 					9px;
+	border: 					gray solid 1px;
+	top: 							345px;
 }
 
 	.emojis button {
@@ -128,17 +131,17 @@
 
 div[class*='edit_message_'] {
 	background-color: white;
-	border-radius: 		8px;
-	margin-left: 			65px;
-	padding-top: 			20px;
+	border-radius: 		6px;
+	margin-left: 			45px;
+	padding-top: 			15px;
 	text-align: 			center;
 	margin-top: 			15px;
 	display: 					none;
-	border: 					solid gray 2px;
-	width: 						770px;
+	border: 					solid gray 1px;
+	width: 						690px;
 }
 
 
 	div[class*='edit_message_'] input[type="text"] {
-		width: 500px;
+		width: 400px;
 	}
