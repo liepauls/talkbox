@@ -11,11 +11,16 @@ class MessagesController < ApplicationController
                               text:    params[:message])
 
     ActionCable.server.broadcast 'messages',
-      message_id: message.id,
-      timestamp:  Time.now.utc.strftime('%H:%M'),
-      username:   current_user.username,
-      message:    message.text,
-      room_id:    current_room.id
+      username: current_user.username,
+      room_id:  current_room.id,
+      html:     render_to_string('messages/_message',
+        formats: [:html],
+        layout: false,
+        locals: { message_text: message.text,
+                  timestamp:    message.created_at.strftime('%H:%M:%S'),
+                  username:     current_user.username,
+                  edited:       edited_message?(message.id),
+                  id:           message.id })
 
     render nothing: true
   end
@@ -27,6 +32,8 @@ class MessagesController < ApplicationController
       message_id: params[:id],
       message:    params[:message]['text'],
       update:     true
+
+    render nothing: true
   end
 
   def destroy

@@ -1,5 +1,5 @@
 class Room < ActiveRecord::Base
-  has_many :messages, dependent: :delete_all
+  has_many :messages, dependent: :destroy
   validates :name, presence: true, uniqueness: true
   belongs_to :user
 

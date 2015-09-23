@@ -13,7 +13,9 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require_self
 //= require channels
 //= require_tree .
 //= require turbolinks
 
+window.App = {}

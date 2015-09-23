@@ -1,0 +1,28 @@
+<p class="message">
+  <b>
+    [<%= timestamp %>]
+    <%= username %>:
+  </b>
+
+  <span id="<%= id %>">
+    <%= edited_message?(id) %>
+    <%= emojify(message_text) %>
+  </span>
+
+  <% if username == current_user.username %>
+    <button id="show_edit_message_<%= id %>">
+      <img src="/assets/gear.png" alt="Gear" />
+    </button>
+  <% end %>
+
+  <div class="edit_message_<%= id %>">
+    <form class="edit_message" id="edit_message_<%= id %>" action="/rooms/<%= current_room.id %>/messages/<%= id %>" accept-charset="UTF-8" data-remote="true" method="post">
+      <input name="utf8" type="hidden" value="&#x2713;" />
+      <input type="hidden" name="_method" value="patch" />
+      <input value="" placeholder="Edit '<%= message_text %>'" type="text" name="message[text]" id="message_text" />
+      <input type="submit" name="commit" value="Update Message" />
+      <button type="button" id="close_edit_message_<%= id %>">Cancel</button>
+    </form>
+    <p></p>
+  </div>
+</p>

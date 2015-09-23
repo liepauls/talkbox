@@ -59,7 +59,7 @@ class RoomsController < ApplicationController
 
   def destroy
     current_room.destroy
-    redirect_to room_path
+    redirect_to rooms_path
   end
 
   private

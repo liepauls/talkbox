@@ -1,21 +1,20 @@
 class UsersController < ApplicationController
   layout 'default'
-  skip_before_action :authorize, :clear_errors, :verify_authenticity_token
+  skip_before_action :logged_in?, :clear_errors, :verify_authenticity_token
   before_action      :signed_in, only: [:index, :new, :create]
 
   def index
     if params[:password]
       user = User.find_by(username: params[:username])
 
-      if BCrypt::Password.new(user.password) == params[:password]
+      if user && BCrypt::Password.new(user.password) == params[:password]
         session[:user] = user.id
         session[:notification] = 'You have successfully logged in!'
         redirect_to '/rooms'
+      else
+        session[:err] = 'Incorrect username or password!'
       end
     end
-  rescue NoMethodError
-    session[:err] = 'Incorrect username or password!'
-    redirect_to '/'
   end
 
   def create
