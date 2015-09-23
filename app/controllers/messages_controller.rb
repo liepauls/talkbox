@@ -30,8 +30,11 @@ class MessagesController < ApplicationController
 
     ActionCable.server.broadcast 'messages',
       message_id: params[:id],
-      message:    params[:message]['text'],
-      update:     true
+      update:     true,
+      html:       render_to_string('messages/update',
+        formats: [:html],
+        layout: false,
+        locals: { text: params[:message]['text'] })
 
     render nothing: true
   end

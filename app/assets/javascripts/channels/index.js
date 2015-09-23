@@ -10,14 +10,14 @@ App.messages = App.cable.subscriptions.create('MessagesChannel', {
     var template = data.html
 
     if (data.update == true) {
-      document.getElementById(data.message_id).textContent = '✎ ' + data.message;
-      $('.edit_message_' + data.message_id).css('display', 'none')
+      $('#' + data.message_id).text('');
+      $('#' + data.message_id).append(template);
+      $('.edit_message_' + data.message_id).css('display', 'none');
       return 0
     }
 
     if (username != data.username) {
-      var template = template.replace('img', 'empty')
-      console.log(template)
+      var template = template.replace('img', 'empty');
     }
 
     if (window.location == 'http://0.0.0.0:3000/rooms/' + data.room_id) {
