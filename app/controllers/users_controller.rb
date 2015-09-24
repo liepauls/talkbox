@@ -8,8 +8,8 @@ class UsersController < ApplicationController
       user = User.find_by(username: params[:username])
 
       if user && BCrypt::Password.new(user.password) == params[:password]
-        session[:user] = user.id
         session[:notification] = 'You have successfully logged in!'
+        session[:user] = user.id
         redirect_to '/rooms'
       else
         session[:err] = 'Incorrect username or password!'
@@ -22,8 +22,8 @@ class UsersController < ApplicationController
 
     if user.save
       user.update(password: BCrypt::Password.create(params[:password]))
-      session[:user] = user.id
       session[:notification] = 'You have successfully created a new account!'
+      session[:user] = user.id
       redirect_to rooms_path
     else
       session[:err] = user.errors.full_messages.first

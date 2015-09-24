@@ -17,7 +17,8 @@ App.messages = App.cable.subscriptions.create('MessagesChannel', {
     }
 
     if (username != data.username) {
-      var template = template.replace('img', 'empty');
+      var template = template.replace('img src', 'empty');
+      console.log(template)
     }
 
     if (window.location == 'http://0.0.0.0:3000/rooms/' + data.room_id) {
