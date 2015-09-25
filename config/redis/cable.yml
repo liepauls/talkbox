@@ -6,3 +6,10 @@ local: &local
   :inline: true
 development: *local
 test: *local
+production: &production
+  :url: redis://redistogo:601c371a8832eda570fe044e5badbcb9@soapfish.redistogo.com:10157
+  :host: tarpon.redistogo.com
+  :port: 10272
+  :password: 601c371a8832eda570fe044e5badbcb9
+  :inline: true
+  :timeout: 1
