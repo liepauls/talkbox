@@ -1,14 +1,9 @@
 development: &development
   :url: redis://localhost:6379
-  :host: localhost
-  :port: 6379
   :timeout: 1
   :inline: true
 test: *development
 production: &production
-  :url: redis://redistogo:601c371a8832eda570fe044e5badbcb9@soapfish.redistogo.com:10157
-  :host: soapfish.redistogo.com
-  :port: 10272
-  :password: 601c371a8832eda570fe044e5badbcb9
+  :url: <%= ENV['REDISTOGO_URL'] %>
   :inline: true
   :timeout: 1
