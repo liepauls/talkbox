@@ -1,9 +1,9 @@
-<div class="content">
-<div class="room_buttons">
-	<% if current_user.id == current_room.user_id %>
-		<%= link_to 'Edit room', edit_room_path(current_room), class: 'button' %>
-	<% end %>
-</div>
+<div class="content" data-messages-url="<%= ws_messages_url %>">
+	<div class="room_buttons">
+		<% if current_user.id == current_room.user_id %>
+			<%= link_to 'Edit room', edit_room_path(current_room), class: 'button' %>
+		<% end %>
+	</div>
 
 	<div class="chat_log">
 
